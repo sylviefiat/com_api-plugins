@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="api" method="upgrade">
+	<name>Api - restcot</name>
+	<version>0.2</version>
+	<creationDate>07 Septembre 2017</creationDate>
+	<author>Sylvie Fiat</author>
+	<authorEmail>sylvie.fiat@ird.fr</authorEmail>
+	<authorUrl>umr-entropie.ird.fr</authorUrl>
+	<copyright>IRD / UMR Entropie. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>This plugin is for cot_form</description>
+<files>
+	<filename plugin="restcot">restcot.php</filename>
+		<folder>restcot</folder>
+</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>
